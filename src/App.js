@@ -77,7 +77,7 @@ function App() {
           <div className="signup-description">
             We're building Potency, an app designed for <strong>developers</strong> to build technical design docs with the features they want. Join the waiting list for early access to the Beta!
           </div>
-          <form id="form" className="form" action="http://localhost:5000/signup" method="post">
+          <form id="form" className="form" action="http://161.35.109.13:5000/signup" method="post">
             <div className="email-form">
               <label className="email-address">
                 <div>
