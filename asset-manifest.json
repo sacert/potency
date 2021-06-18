@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/potency/static/css/main.f864e659.chunk.css",
+    "main.js": "/potency/static/js/main.2c5a4a17.chunk.js",
+    "main.js.map": "/potency/static/js/main.2c5a4a17.chunk.js.map",
+    "runtime-main.js": "/potency/static/js/runtime-main.3449485c.js",
+    "runtime-main.js.map": "/potency/static/js/runtime-main.3449485c.js.map",
+    "static/js/2.d0eb047a.chunk.js": "/potency/static/js/2.d0eb047a.chunk.js",
+    "static/js/2.d0eb047a.chunk.js.map": "/potency/static/js/2.d0eb047a.chunk.js.map",
+    "static/js/3.a6e4d959.chunk.js": "/potency/static/js/3.a6e4d959.chunk.js",
+    "static/js/3.a6e4d959.chunk.js.map": "/potency/static/js/3.a6e4d959.chunk.js.map",
+    "index.html": "/potency/index.html",
+    "static/css/main.f864e659.chunk.css.map": "/potency/static/css/main.f864e659.chunk.css.map",
+    "static/js/2.d0eb047a.chunk.js.LICENSE.txt": "/potency/static/js/2.d0eb047a.chunk.js.LICENSE.txt",
+    "static/media/bitbucket.d391ca23.svg": "/potency/static/media/bitbucket.d391ca23.svg",
+    "static/media/figma.0f4098dc.svg": "/potency/static/media/figma.0f4098dc.svg",
+    "static/media/gitlab.45857c35.png": "/potency/static/media/gitlab.45857c35.png",
+    "static/media/invision.22dd8c17.svg": "/potency/static/media/invision.22dd8c17.svg",
+    "static/media/jira.e1d74872.png": "/potency/static/media/jira.e1d74872.png",
+    "static/media/markdown.92015e88.png": "/potency/static/media/markdown.92015e88.png",
+    "static/media/real_logo.69a98966.png": "/potency/static/media/real_logo.69a98966.png",
+    "static/media/reviewers.cdc436b9.png": "/potency/static/media/reviewers.cdc436b9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3449485c.js",
+    "static/js/2.d0eb047a.chunk.js",
+    "static/css/main.f864e659.chunk.css",
+    "static/js/main.2c5a4a17.chunk.js"
+  ]
+}
