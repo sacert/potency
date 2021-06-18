@@ -1,38 +1,273 @@
 .App {
   text-align: center;
+  margin: 20px 20px 120px 20px;
+  scroll-behavior: smooth;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 3vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-logo-content {
+  height: 260px;
+  pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  height: 45px;
+  position: sticky;
+  top: 0;
+  background: white;
+}
+
+.App-header-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
+  background-color: #5c73ff;
+  box-shadow: 0px 2px 8px 1px #888888;
+  padding: 20px 45px;
+  border-radius: 50px;
+  font-weight: 800;
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 16px;
+  transition: 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App-link:hover {
+  background-color: #3d59ff;
+}
+
+.content {
+  margin-top: 45px;
+  max-width: 1080px;
+	margin: 0 auto !important;
+	float: none !important;
+}
+
+.App-title-content {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.App-title-content-sub {
+  color: rgb(155, 154, 151); 
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.App-link-wrapper {
+  margin-top: 70px;
+}
+
+.App-arrow {
+  height: 30px;
+  margin-top: 80px;
+}
+
+.header-content {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.vcs-github {
+  height: 100px;
+}
+
+.vcs-gitlab {
+  height: 120px;
+}
+
+.vcs-bitbucket {
+  height: 80px;
+}
+
+.vcs-figma {
+  height: 70px;
+  padding: 0 20px;
+}
+
+.vcs-slack {
+  height: 80px;
+  padding: 0 20px;
+}
+
+.vcs-invision {
+  height: 70px;
+  padding: 0 20px;
+}
+
+.vcs-jira {
+  height: 80px;
+  padding: 0 20px;
+}
+
+.vcs-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vcs-logos-integration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.approval {
+  margin-top: 50px;
+}
+
+.approval-review {
+  margin-top: 40px;
+}
+
+.integration {
+  margin-top: 40px;
+}
+
+.vcs-header {
+  font-size: 20px;
+}
+
+.vcs-integration {
+  margin-top: 40px;
+}
+
+.markdown {
+  margin-top: 20px;
+  width: 60%;
+}
+
+.reviewers {
+  margin-top: 20px;
+  width: 60%;
+}
+
+.features {
+  font-weight: 500;
+  margin-bottom: 80px;
+}
+
+.divider {
+  width: 60%;
+  height: 2px;
+  background-color: #eeeeee;
+  margin: 0 auto;
+}
+
+.signup {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.signup-description {
+  margin: 80px 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #888888;
+}
+
+.email-address {
+  font-weight: 900;
+  width: 100%;
+}
+
+.email-address div {
+  float: left;
+  margin-bottom: 6px;
+}
+
+.form {
+  display: grid;
+}
+
+.email-form {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: flex-start;
+}
+
+.email-input {
+  width: 100%;
+  height: 35px;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  font-size: 15px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  padding: 2px 10px;
+  cursor: pointer;
+}
+
+.submit {
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  @media screen and (max-width: 1120px) {
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1120px) {
+  .submit {
+    width: 80%;
   }
+  .reviewers {
+    width: 90%;
+  }
+  .signup{
+    width: 80%;
+  }
+  .divider{
+    width: 90%;
+  }
+  .email-form{
+    width: 80%;
+  }
+}
+
+.submit-wrapper {
+  margin-top: 20px;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #04AA6D;;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
 }
